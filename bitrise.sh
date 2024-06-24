@@ -1,4 +1,6 @@
 cd
+apt update
+apt install automake autoconf make -y
 git clone https://github.com/whiveio/whive-cpuminer-mc-yespower.git 
 cd whive-cpuminer-mc-yespower
 sudo apt-get install build-essential libcurl4-openssl-dev -y
